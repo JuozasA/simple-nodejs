@@ -9,7 +9,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 RUN npm install
-# If you are building your code for production
+# If you are building code for production
 # RUN my awesome npm ci --only=production
 
 # Bundle app source
